@@ -15,6 +15,7 @@ export default function NextPage() {
       </Head>
       <Navbar />
       <Hero />
+      <Terminology/>
     </div>
   )
 }

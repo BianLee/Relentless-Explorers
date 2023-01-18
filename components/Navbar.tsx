@@ -45,7 +45,7 @@ export default function Navbar() {
             <li                 className="block py-2 pr-4 pl-4 text-xl text-white hover:text-white md:hover:bg-transparent hover:text-white"
 >
               <Link
-                href="/dashboard"
+                href="/gallery"
               >
                 Gallery 
               </Link>

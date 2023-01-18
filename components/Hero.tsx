@@ -5,29 +5,29 @@ export default function Hero() {
 
     return(
         <div >
-        <section className="bg-slate-100">
+        <section className="bg-gradient-to-r from-slate-900 to-slate-700">
   <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
 
-    <h1 className="mb-4 mt-20 text-slate-800 leading-relaxed text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl ">
-    Relentless Explorers Ready To Rage On.</h1>
-    <p className="mb-8 text-lg pb-5 font-normal text-black mt-10 lg:text-2xl sm:px-16 xl:px-48">
-      Join us on our journey to visit every corner of the US. 
+    <h1 className="mb-4 mt-20 text-orange-400 leading-relaxed text-4xl font-bold tracking-tight leading-none md:text-5xl lg:text-5xl">
+    Relentless <span className="text-white italic">Explorers</span> Ready To Rage On.</h1>
+    <p className="mb-8 text-lg pb-5 font-normal text-white mt-10 lg:text-2xl sm:px-16 xl:px-48">
+      Join us on our journey to visit every corner of the US ✈︎ 
     </p>
     <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
       <div className="hover:opacity-75 inline-flex justify-center bg-cyan-800 items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
 >
 <Link
-        href="/dashboard"
+        href="/gallery"
       >
         Subscribe to Newsletter
       </Link>
       </div>
-<div className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+<div className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
 <Link
         href="/#intro"
       >
 
-        Learn More
+        Join Us
 
 
 
