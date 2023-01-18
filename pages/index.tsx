@@ -11,7 +11,7 @@ export default function NextPage() {
   return (
     <div>
       <Head>
-        <title>BostonLobster</title> 
+        <title>Relentless Explorers</title> 
       </Head>
       <Navbar />
       <Hero />

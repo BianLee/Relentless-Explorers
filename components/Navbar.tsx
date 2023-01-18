@@ -7,7 +7,7 @@ export default function Navbar() {
       <div className="container flex flex-wrap justify-between items-center mx-auto">
 
           <span className="flex items-center self-center text-2xl font-semibold whitespace-nowrap text-white">
-            FULLSEND
+            737 Champions
           </span>
         <button
           data-collapse-toggle="navbar-default"
@@ -54,7 +54,7 @@ export default function Navbar() {
             <li                 className="block py-2 pr-4 pl-4 text-xl text-white hover:text-white md:hover:bg-transparent hover:text-white"
 >
               <Link
-                href="/random"
+                href="/join"
               >
                 Join 
               </Link>
