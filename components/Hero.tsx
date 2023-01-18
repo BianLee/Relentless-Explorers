@@ -5,25 +5,21 @@ export default function Hero() {
 
     return(
         <div >
-        <section className="bg-blend-darken bg-cover bg-hero-pattern">
+        <section className="bg-slate-100">
   <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
 
-    <h1 className="mb-4 mt-20 text-white text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl ">
-A YouTube 
-
-Transparency
-
- Dashboard    </h1>
-    <p className="mb-8 text-lg pb-5 font-normal text-white mt-10 lg:text-2xl sm:px-16 xl:px-48">
-        Look into widely viewed content on YouTube and explore the data about the most popular videos consumed.
+    <h1 className="mb-4 mt-20 text-slate-800 leading-relaxed text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl ">
+    Relentless Explorers Ready To Rage On.</h1>
+    <p className="mb-8 text-lg pb-5 font-normal text-black mt-10 lg:text-2xl sm:px-16 xl:px-48">
+      Join us on our journey to visit every corner of the US. 
     </p>
     <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-      <div className="hover:opacity-75 inline-flex justify-center bg-red-400 items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
+      <div className="hover:opacity-75 inline-flex justify-center bg-cyan-800 items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
 >
 <Link
         href="/dashboard"
       >
-        Visit Dashboard
+        Subscribe to Newsletter
       </Link>
       </div>
 <div className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">

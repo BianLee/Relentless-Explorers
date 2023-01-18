@@ -11,14 +11,10 @@ export default function NextPage() {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>BostonLobster</title> 
       </Head>
       <Navbar />
       <Hero />
-      <Intro />
-      <Terminology />
-      <Footer />
     </div>
   )
 }
