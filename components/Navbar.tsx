@@ -7,7 +7,12 @@ export default function Navbar() {
       <div className="container flex flex-wrap justify-between items-center mx-auto">
 
           <span className="flex items-center self-center text-2xl font-semibold whitespace-nowrap text-white">
-            737 Champions
+          <Link
+                href="/"
+              aria-current="page"
+              >
+                737 Champions
+              </Link>
           </span>
         <button
           data-collapse-toggle="navbar-default"

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Navbar from '../components/Navbar'
 import React from "react"
-
+import Image from "next/image";
 
 
 export default class Gallery extends React.Component {
@@ -14,7 +14,7 @@ export default class Gallery extends React.Component {
           <div className="flex flex-wrap -m-1 md:-m-2">
             <div className="flex flex-wrap w-1/2">
               <div className="w-full p-1 md:p-2">
-                <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg" src="../Auburn/auburn2.JPG" />
+                <img alt="gallery" layout="fill" className="block object-cover object-center w-full h-full rounded-lg" src="/Auburn/auburn2.JPG" />
               </div>
             </div>
             <div className="flex flex-wrap w-1/2">
