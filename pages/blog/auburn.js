@@ -12,7 +12,7 @@ export default class blog extends React.Component {
                <div><Navbar />
                <div className="py-8 px-4 mx-auto -m-2 max-w-screen-xl lg:py-16 lg:px-12">
                    {/* <Link href="/blog/"><span className="cursor-pointer">← See all blog posts<br/><br/></span></Link> */}
-                   <span className="text-5xl">A Day Trip To Auburn, California.</span>
+                   <span className="text-5xl leading-loose">A Day Trip To Auburn, California.</span>
                    <span className="text-lg"><br/><br/>
                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque 
                    laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi 
