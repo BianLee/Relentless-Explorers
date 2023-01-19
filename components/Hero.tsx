@@ -8,7 +8,7 @@ export default function Hero() {
         <section className="bg-gradient-to-r from-slate-900 to-slate-700">
   <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
 
-    <h1 className="mb-4 mt-20 text-orange-400 leading-loose text-4xl font-bold tracking-tight leading-none md:text-5xl lg:text-5xl">
+    <h1 className="mb-4 mt-20 text-orange-400 text-4xl font-bold tracking-tight leading-none md:text-5xl lg:text-5xl">
     Relentless <span className="text-white italic">Explorers</span> Ready To Rage On.</h1>
     <p className="mb-8 text-lg pb-5 font-normal text-white mt-10 lg:text-2xl sm:px-16 xl:px-48">
       Join us on our journey to visit every corner of the US ✈︎ 
