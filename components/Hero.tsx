@@ -14,25 +14,28 @@ export default function Hero() {
       Join us on our journey to visit every corner of the US ✈︎ 
     </p>
     <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-      <div className="hover:opacity-75 inline-flex justify-center bg-cyan-800 items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
->
-<Link
+      <Link
         href="/gallery"
       >
+      <div className="hover:opacity-75 inline-flex justify-center bg-cyan-800 items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
+>
+
         Subscribe to Newsletter
-      </Link>
+   
       </div>
-<div className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
-<Link
+      </Link>
+      <Link
         href="/join"
       >
+<div className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+
 
         Join Us
 
 
 
 
-      </Link>
+      
       <svg
           className="ml-2 -mr-1 w-5 h-5"
           fill="currentColor"
@@ -46,6 +49,7 @@ export default function Hero() {
           />
         </svg>
 </div>
+</Link>
 
     </div>
 

@@ -27,7 +27,7 @@ export default class Navbar extends React.Component <any, any>{
   }
   render() {
     return (
-      <nav className=" sticky top-0 z-50 bg-black border-gray-200 px-2 sm:px-4 py-6 ">
+      <nav className="top-0 z-50 bg-black border-gray-200 px-2 sm:px-4 py-6 ">
         <div className="container flex flex-wrap justify-between items-center mx-auto">
   
             <span className="flex items-center self-center text-2xl font-semibold whitespace-nowrap text-white">
